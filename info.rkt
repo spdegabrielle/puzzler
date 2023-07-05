@@ -4,4 +4,4 @@
 (define build-deps '("racket-doc" "scribble-lib"))
 (define test-omit-paths (list "examples" "expander.rkt"))
 (define collection "puzzler")
-(define scribblings '(("scribblings/puzzler.scrbl")))
+(define scribblings '(("scribblings/puzzler.scrbl") () ("Game development")))
